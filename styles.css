@@ -1,0 +1,82 @@
+/*
+#F7FFF7 - almost white
+#343434 - dark gray - almost black
+#2F3061 - blue dark
+#2F3061 - blue dark
+#FFE66D - yellow
+#A1C6D7 - blue light
+*/
+html{
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+  color: #343434;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+img{
+  width: 300px;
+}
+h1{
+  font-size: 100px;
+  line-height: 1;
+}
+h2{
+  font-size: 45px
+}
+h1, h2{
+  font-family: 'Caveat';
+  font-weight: 400;
+  margin: 0;
+}
+.content-wrap{
+  width: 800px;
+  margin: 0 auto;
+  padding: 60px 0;
+}
+
+
+/* profile
+------------------------------*/
+
+header{
+  background-color: #2F3061;
+  color: #F7FFF7;
+}
+
+/* first
+------------------------------*/
+.first_sec{
+  background: #F7FFF7;
+  padding: 25px 0;
+}
+.first_sec img {
+  float: left;
+  margin-right: 20px;
+}
+.first_sec h2{
+  margin-top: 0;
+}
+
+/* seconde
+------------------------------*/
+.second_sec{
+  background: #A1C6D7;
+  padding: 25px 0;
+}
+
+.second_sec img {
+  float: left;
+  margin-right: 20px;
+}
+
+footer{
+  background: #343434;
+  color: #F7FFF7;
+}
